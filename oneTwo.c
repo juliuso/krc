@@ -4,9 +4,11 @@
 an unknown escape sequence. This program is the same
 as oneOne.c */
 
-main()
+int main(int argc, char *argv[])
 {
 	printf("hello, ");
 	printf("world");
 	printf("\n");
+	
+	return 0;
 }
